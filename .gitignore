@@ -1,8 +1,9 @@
 # Ignore .class files
 *.class
 
-# Ignore jar files
+# Ignore jar and war files
 *.jar
+*.war
 
 # Ignore target directory and all subdirectories
 /target/
