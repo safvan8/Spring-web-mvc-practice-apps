@@ -1,33 +1,47 @@
-HELP.md
+# Ignore .class files
+*.class
+
+# Ignore jar files
+*.jar
+
+# Ignore target directory and all subdirectories
+/target/
+**/target/
+
+# Ignore build directories and files
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+bin/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+.gradle/
+.idea/
+.mvn/
+out/
+build.xml
 
-### VS Code ###
-.vscode/
+# Ignore JAR files
+*.jar
+
+# Ignore hidden files and directories
+.*
+!.gitignore
+!.gitattributes
+
+# Ignore DS_Store files on macOS
+*.DS_Store
+
+# Ignore Thumbs.db files on Windows
+Thumbs.db
+
+# Ignore Eclipse files
+.project
+.classpath
+.settings/
+.metadata/
+
+# Ignore NetBeans files
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
